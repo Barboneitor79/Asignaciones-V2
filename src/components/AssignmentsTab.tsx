@@ -12,7 +12,7 @@ import { Button } from './ui/button';
 import { useProfiles, Profile } from '../hooks/useProfiles';
 import AssignmentsPDF from './AssignmentsPDF';
 
-const roles = ['Microfono', 'Audio', 'Video', 'Plataforma', 'Acomodador'];
+const roles = ['Microfono', 'Audio', 'Video', 'Plataforma'];
 
 const AssignmentsTab: React.FC = () => {
   const [selectedMonth, setSelectedMonth] = useState<string>(
